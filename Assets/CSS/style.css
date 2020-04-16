@@ -53,6 +53,9 @@ main {
   background-color: #ec5242;
 }
 
+.bg-lightgray {
+  background-color: rgb(247, 247, 247);
+}
 .coverlink {
   border: 4px solid #ec5242;
 }
@@ -71,8 +74,16 @@ main {
   border-radius: 10px;
 }
 
+.border-bottom {
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.border-top {
+  border-top: 1px solid rgb(211, 211, 211);
+}
+
 .section1 {
-  height: 100vh;
+  min-height: 100vh !important;
 }
 
 .section2 {
@@ -84,4 +95,43 @@ main {
 .size-mini {
   font-size: 13px;
   line-height: 1.2;
+}
+.display-7 {
+  font-size: 4.5rem;
+}
+@media screen and (max-width: 998px) {
+  .display-7 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .display-7 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    box-shadow: 0 5px 10px rgb(211, 211, 211);
+  }
+}
+
+.summit-2018 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(232, 66, 40, 0.7),
+      rgba(232, 66, 40, 0.7)
+    ),
+    url(../img/2018.png);
+  background-position: 100%, 100%;
+}
+.summit-2019 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(232, 66, 40, 0.7),
+      rgba(232, 66, 40, 0.7)
+    ),
+    url(../img/2019.jpg);
+  background-position: 100%, 100%;
 }
