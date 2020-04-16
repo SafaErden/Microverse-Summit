@@ -48,7 +48,8 @@
     );
   background-position: 50%, 100%;
   background-repeat: no-repeat;
-  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
   background-size: 200px auto;
   border-radius: 25px;
 }
@@ -148,6 +149,10 @@ main {
   font-size: 4.5rem;
 }
 
+.display-8 {
+  font-size: 2rem;
+}
+
 .dot {
   font-size: 7px;
 }
@@ -155,11 +160,17 @@ main {
   .display-7 {
     font-size: 3.5rem;
   }
+  .display-8 {
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .display-7 {
     font-size: 2.5rem;
+  }
+  .display-8 {
+    font-size: 1.6rem;
   }
 }
 
@@ -198,4 +209,12 @@ main {
 .rotate-45 {
   transform: rotate(316deg);
   bottom: -25px;
+}
+
+.main-topic {
+  min-width: 110px;
+}
+
+.main-icon {
+  min-width: 50px;
 }
