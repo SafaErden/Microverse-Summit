@@ -41,6 +41,10 @@ main {
   color: rgb(81, 81, 81);
 }
 
+.text-lightgray {
+  color: rgb(211, 211, 211);
+}
+
 .text-orange {
   color: #ec5242;
 }
@@ -58,7 +62,7 @@ main {
   width: 50px;
 }
 .grayline {
-  border: 1px solid rgb(214, 214, 214);
+  border: 1px solid rgb(211, 211, 211);
   width: 20px;
 }
 
