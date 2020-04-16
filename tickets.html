@@ -28,9 +28,258 @@
     />
     <title>Tickets</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body class="bg-lightgray">
+    <header class="container-fluid p-0 fixed-top">
+      <nav class="d-none d-md-block bg-darkgray p-2">
+        <div class="d-flex justify-content-end align-items-center nav w-100">
+          <ul class="list-unstyled list-inline m-0 p-0">
+            <li class="list-inline-item mx-2">
+              <a href="#" class="text-white"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="list-inline-item mx-2 mr-3">
+              <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item mx-2">
+              <a href="#" class="text-white">English</a>
+            </li>
+            <li class="list-inline-item mx-2">
+              <a href="#" class="text-white">My Page</a>
+            </li>
+            <li class="list-inline-item ml-2">
+              <a href="#" class="text-white">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="d-none d-md-block bg-white p-2 py-4">
+        <div class="d-flex justify-content-end align-items-center nav w-100">
+          <ul class="list-unstyled list-inline m-0 p-0">
+            <li class="list-inline-item mx-5">
+              <a href="about.html" class="text-orange">About</a>
+            </li>
+            <li class="list-inline-item mx-5">
+              <a href="tickets.html" class="text-customgray">Tickets</a>
+            </li>
+            <li class="list-inline-item ml-5">
+              <a href="index.html" class="text-orange coverlink p-1 px-3"
+                >Home</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="d-flex w-100 d-md-none">
+        <button
+          class="navbar-toggler m-3"
+          type="button"
+          onclick="togglenavbar()"
+        >
+          <i class="fas fa-bars h1 text-customgray2"></i>
+        </button>
+        <div class="w-100">
+          <div class="bg-darkgray p-2" id="nav1" style="display: none;">
+            <div
+              class="d-flex justify-content-end align-items-center nav w-100"
+            >
+              <ul class="list-unstyled list-inline m-0 p-0">
+                <li class="list-inline-item mx-2">
+                  <a href="#" class="text-white"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item mx-2 mr-3">
+                  <a href="#" class="text-white"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item mx-2">
+                  <a href="#" class="text-white">English</a>
+                </li>
+                <li class="list-inline-item mx-2">
+                  <a href="#" class="text-white">My Page</a>
+                </li>
+                <li class="list-inline-item ml-2">
+                  <a href="#" class="text-white">Log Out</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="bg-white p-2" id="nav2" style="display: none;">
+            <div
+              class="d-flex justify-content-end align-items-center nav w-100"
+            >
+              <ul class="list-unstyled list-inline m-0 p-0">
+                <li class="list-inline-item mx-2">
+                  <a href="about.html" class="text-orange">About</a>
+                </li>
+                <li class="list-inline-item mx-2">
+                  <a href="tickets.html" class="text-customgray">Tickets</a>
+                </li>
+                <li class="list-inline-item ml-2">
+                  <a href="index.html" class="text-customgray p-1 px-3">Home</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="section1 container d-flex flex-column align-items-center justify-content-center p-3 text-center"
+      >
+        <h1 class="font-weight-bold h4 m-3 mt-5 text-customgray">
+          Select Tickets
+        </h1>
+        <div class="orangeline mb-3"></div>
 
+        <p
+          class="h6 d-flex flex-wrap align-items-center text-customgray2 text-center mt-4 step-border border p-3 px-4"
+        >
+          <span class="text-orange dot mr-1"
+            ><i class="fas fa-circle"></i> </span
+          ><span class="text-orange font-weight-bold mr-3"> STEP 1</span>
+          Please select the day when you want to join Microverse Global Summit
+          2020
+        </p>
+        <div
+          class="row m-0 my-3 p-0 w-100 d-flex justify-content-center align-items-center"
+        >
+          <article class="col-12 text-center text-white p-0 m-0 my-3">
+            <table class="table m-0 border w-100">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">Ticket</th>
+                  <th scope="col">1-Day-Ticket</th>
+                  <th scope="col">2-Day-ticket</th>
+                  <th scope="col">Full Ticket</th>
+                  <th scope="col">MGS Affiliate/Partners</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Date</th>
+                  <td>06. Oct (Tue)</td>
+                  <td>07. Oct (Wed)</td>
+                  <td>06.-07. Oct (Tue-Wed)</td>
+                  <td>06.-07. Oct (Tue-Wed</td>
+                </tr>
+                <tr>
+                  <th scope="row">Normal</th>
+                  <td class="text-orange">
+                    100 <i class="fas fa-lira-sign"></i>
+                  </td>
+                  <td class="text-orange">
+                    100 <i class="fas fa-lira-sign"></i>
+                  </td>
+                  <td class="text-orange">
+                    150 <i class="fas fa-lira-sign"></i>
+                  </td>
+                  <td class="text-orange">
+                    0 <i class="fas fa-lira-sign"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Student</th>
+                  <td class="text-orange">
+                    75 <i class="fas fa-lira-sign"></i>
+                  </td>
+                  <td class="text-orange">
+                    75 <i class="fas fa-lira-sign"></i>
+                  </td>
+                  <td class="text-orange">
+                    100 <i class="fas fa-lira-sign"></i>
+                  </td>
+                  <td class="text-orange">
+                    0 <i class="fas fa-lira-sign"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+      </section>
+      <section
+        class="container-fluid d-flex flex-column align-items-center justify-content-center p-2 bg-white border-bottom border-top"
+      >
+        <h1 class="font-weight-bold h4 m-3 mt-5 text-customgray">
+          Microverse Global Summit 2020 Logo
+        </h1>
+        <div class="orangeline mb-3"></div>
+
+        <p class="h6 text-customgray2 text-center mt-2">
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua."Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div
+          class="row m-0 my-3 p-0 w-100 d-flex justify-content-center align-items-center"
+        >
+          <article
+            class="col-11 col-md-5 text-center text-white p-4 py-5 m-0 my-3 ml-1 logo-2020 border"
+          ></article>
+        </div>
+      </section>
+      <section
+        class="container-fluid d-flex flex-column align-items-center justify-content-center p-2 bg-white"
+      >
+        <h1 class="font-weight-bold h4 m-3 mt-5 text-customgray">
+          See the past Microverse Global Summits
+        </h1>
+        <div class="orangeline mb-3"></div>
+
+        <p class="h6 text-customgray2 text-center mt-2">
+          Take a look at the last two Microverse Summits which took place in
+          Tercan and in Edremit.
+        </p>
+        <div
+          class="row m-0 my-3 p-0 w-100 d-flex justify-content-center align-items-center"
+        >
+          <article
+            class="col-11 col-md-5 text-center text-white p-4 py-5 m-0 my-3 mr-1 summit-2018"
+          >
+            <h1 class="font-weight-bolder">2018</h1>
+            <h5 class="text-center">
+              Microverse Global Summit <br />
+              2018, in Tercan
+            </h5>
+          </article>
+          <article
+            class="col-11 col-md-5 text-center text-white p-4 py-5 m-0 my-3 ml-1 summit-2019"
+          >
+            <h1 class="font-weight-bolder">2019</h1>
+            <h5 class="text-center">
+              Microverse Global Summit <br />
+              2018, in Edremit
+            </h5>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid bg-darkgray">
+      <section
+        class="container-fluid d-flex flex-column align-items-center justify-content-center p-2 section3"
+      >
+        <h1 class="font-weight-bold h4 m-3 text-lightgray">
+          Partner
+        </h1>
+        <div class="orangeline mb-3"></div>
+        <article
+          class="container d-flex align-items-center justify-content-around text-lightgray w-100 h1 my-4"
+        >
+          <i class="fab fa-google-wallet"></i>
+          <i class="fas fa-laptop-code"></i>
+          <i class="fab fa-windows"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-ubuntu"></i>
+          <i class="fab fa-hubspot"></i>
+          <i class="fab fa-github-square"></i>
+        </article>
+      </section>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
