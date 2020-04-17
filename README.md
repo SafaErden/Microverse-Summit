@@ -1,6 +1,6 @@
-# New York Times Article Page Replica
+# Microverse Summit 2020
 
-> This project is a clone of New York Times article page. It makes use of float, flex and grid CSS display positioning styles. Also Bootstrap framework is mostly used. This capstone project is completed as part of the Microverse remote software developement curriculum using the pair programming approach. Additionally a basic JavaScript method used to make navbar dynamic depends on the scroll action. Content of the webpage is copied from [that](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) original page.
+> This is the capstone project of the Microverse HTML & CSS curriculum. It makes use of float, flex and grid CSS display positioning styles. Also Bootstrap framework is mostly used. This capstone project is completed as part of the Microverse remote software developement curriculum using the pair programming approach.
 
 ## Home Page
 ![screenshot](./Assets/img/index.PNG)
