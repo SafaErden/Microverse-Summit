@@ -69,6 +69,18 @@ main {
   margin: 0 auto;
 }
 
+.second-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.third-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -244,6 +256,12 @@ main {
 
 #show-more:checked ~ .featured::before {
   content: "LESS";
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 998px) {
