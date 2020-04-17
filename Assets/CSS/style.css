@@ -250,7 +250,6 @@ main {
   right: -100%;
   top: 0;
   transition: 0.5s transform;
-  transition-timing-function: cubic-bezier(0.39, 0.53, 0.38, 1);
 }
 
 #nav-toggler:checked ~ label .toggle-word {
@@ -259,4 +258,23 @@ main {
 
 #nav-toggler:checked ~ .menu {
   transform: translateX(-90vw);
+}
+
+/*-----------------*/
+
+#show-more:checked ~ .featured .more-word {
+  display: none;
+}
+#show-more:checked ~ .featured:before {
+  content: "LESS";
+}
+
+#featured-speakers {
+  max-height: 300px;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+#show-more:checked ~ div {
+  max-height: 1500px;
+  transition: max-height 1s ease-in;
 }

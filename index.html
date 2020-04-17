@@ -221,7 +221,14 @@
           Featured Speakers
         </h1>
         <div class="orangeline mb-3"></div>
-        <div class="row m-0 my-3 p-0 w-100">
+
+        <input
+          type="checkbox"
+          id="show-more"
+          class="d-none position-absolute"
+          name="show-more"
+        />
+        <div class="row m-0 my-3 p-0 w-100" id="featured-speakers">
           <article class="col-12 col-md-6 row p-0 m-0 my-3 position-relative">
             <img
               src="./Assets/img/bg-grid.png"
@@ -384,10 +391,14 @@
               </div>
             </div>
           </article>
-          <button class="w-100 py-2 px-5 border bg-white d-md-none">
-            MORE <i class="fas fa-angle-down text-orange ml-2"></i>
-          </button>
         </div>
+        <label
+          for="show-more"
+          class="w-100 py-2 px-5 border bg-white d-md-none featured text-center"
+        >
+          <span class="more-word"> MORE </span
+          ><i class="fas fa-angle-down text-orange ml-2"></i>
+        </label>
       </section>
     </main>
     <footer class="container-fluid bg-darkgray p-0">
