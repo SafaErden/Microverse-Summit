@@ -30,6 +30,48 @@
   </head>
   <body class="bg-lightgray">
     <header class="container-fluid p-0 fixed-top">
+      <input
+        type="checkbox"
+        name="navbar-toggler"
+        id="nav-toggler"
+        class="position-absolute d-none"
+      />
+      <label for="nav-toggler" class="d-md-none p-4 text-center"
+        ><span class="toggle-word"
+          ><i class="fas fa-bars h2 text-customgray2"></i></span
+      ></label>
+      <nav class="menu bg-darkgray position-fixed h-100 w-75 p-3">
+        <label for="nav-toggler" class="d-md-none text-center"
+          ><span class="toggle-word"
+            ><i class="far fa-times-circle h2 text-lightgray"></i></span
+        ></label>
+        <ul class="list-unstyled">
+          <li class="mb2">
+            <a class="text-white h4" href="index.html">Home</a>
+          </li>
+          <li class="mb2">
+            <a class="text-white h4" href="ticket.html">Ticket</a>
+          </li>
+          <li class="mb2">
+            <a class="text-white h4" href="about.html">About</a>
+          </li>
+          <hr />
+
+          <li class="mb2"><a class="text-white h4" href="#">Turkish</a></li>
+          <li class="mb2"><a class="text-white h4" href="#">My Page</a></li>
+          <li class="mb2"><a class="text-white h4" href="#">Log Out</a></li>
+          <hr />
+
+          <li class="mb2">
+            <a class="text-white h4" href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="mb2">
+            <a class="text-white h4" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
       <nav class="d-none d-md-block bg-darkgray p-2">
         <div class="d-flex justify-content-end align-items-center nav w-100">
           <ul class="list-unstyled list-inline m-0 p-0">
@@ -42,7 +84,7 @@
               <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
             </li>
             <li class="list-inline-item mx-2">
-              <a href="#" class="text-white">English</a>
+              <a href="#" class="text-white">Turkish</a>
             </li>
             <li class="list-inline-item mx-2">
               <a href="#" class="text-white">My Page</a>
@@ -73,61 +115,6 @@
           </ul>
         </div>
       </nav>
-      <nav class="d-flex w-100 d-md-none">
-        <button
-          class="navbar-toggler m-3"
-          type="button"
-          onclick="togglenavbar()"
-        >
-          <i class="fas fa-bars h1 text-customgray2"></i>
-        </button>
-        <div class="w-100">
-          <div class="bg-darkgray p-2" id="nav1" style="display: none;">
-            <div
-              class="d-flex justify-content-end align-items-center nav w-100"
-            >
-              <ul class="list-unstyled list-inline m-0 p-0">
-                <li class="list-inline-item mx-2">
-                  <a href="#" class="text-white"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item mx-2 mr-3">
-                  <a href="#" class="text-white"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item mx-2">
-                  <a href="#" class="text-white">English</a>
-                </li>
-                <li class="list-inline-item mx-2">
-                  <a href="#" class="text-white">My Page</a>
-                </li>
-                <li class="list-inline-item ml-2">
-                  <a href="#" class="text-white">Log Out</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="bg-white p-2" id="nav2" style="display: none;">
-            <div
-              class="d-flex justify-content-end align-items-center nav w-100"
-            >
-              <ul class="list-unstyled list-inline m-0 p-0">
-                <li class="list-inline-item mx-2">
-                  <a href="about.html" class="text-orange">About</a>
-                </li>
-                <li class="list-inline-item mx-2">
-                  <a href="ticket.html" class="text-customgray">Tickets</a>
-                </li>
-                <li class="list-inline-item ml-2">
-                  <a href="index.html" class="text-customgray p-1 px-3">Home</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
     </header>
     <main>
       <section
@@ -152,59 +139,61 @@
         >
           <article class="col-12 text-center text-white p-2 m-0 my-3 stripe">
             <table class="table m-0 border w-100">
-              <thead class="bg-lightgray">
-                <tr>
-                  <th scope="col">Ticket</th>
-                  <th scope="col">1-Day-Ticket</th>
-                  <th scope="col">2-Day-ticket</th>
-                  <th scope="col">Full Ticket</th>
-                </tr>
-              </thead>
-              <tbody class="bg-white">
-                <tr>
-                  <th scope="row">Date</th>
-                  <td>06. Oct (Tue)</td>
-                  <td>07. Oct (Wed)</td>
-                  <td>06.-07. Oct (Tue-Wed)</td>
-                </tr>
-                <tr>
-                  <th scope="row">Normal</th>
-                  <td class="text-orange font-weight-bolder">
-                    100
-                    <i class="fas fa-lira-sign"> </i>
-                    <br />
-                    <input type="radio" />
-                  </td>
-                  <td class="text-orange font-weight-bolder">
-                    100 <i class="fas fa-lira-sign"></i>
-                    <br />
-                    <input type="radio" />
-                  </td>
-                  <td class="text-orange font-weight-bolder">
-                    150 <i class="fas fa-lira-sign"></i>
-                    <br />
-                    <input type="radio" />
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Student</th>
-                  <td class="text-orange font-weight-bolder">
-                    75 <i class="fas fa-lira-sign"></i>
-                    <br />
-                    <input type="radio" />
-                  </td>
-                  <td class="text-orange font-weight-bolder">
-                    75 <i class="fas fa-lira-sign"></i>
-                    <br />
-                    <input type="radio" />
-                  </td>
-                  <td class="text-orange font-weight-bolder">
-                    100 <i class="fas fa-lira-sign"></i>
-                    <br />
-                    <input type="radio" />
-                  </td>
-                </tr>
-              </tbody>
+              <form action="#">
+                <thead class="bg-lightgray">
+                  <tr>
+                    <th scope="col">Ticket</th>
+                    <th scope="col">1-Day-Ticket</th>
+                    <th scope="col">2-Day-ticket</th>
+                    <th scope="col">Full Ticket</th>
+                  </tr>
+                </thead>
+                <tbody class="bg-white">
+                  <tr>
+                    <th scope="row">Date</th>
+                    <td>06. Oct (Tue)</td>
+                    <td>07. Oct (Wed)</td>
+                    <td>06.-07. Oct (Tue-Wed)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Normal</th>
+                    <td class="text-orange font-weight-bolder">
+                      100
+                      <i class="fas fa-lira-sign"> </i>
+                      <br />
+                      <input type="radio" id="ticket1" name="ticket" />
+                    </td>
+                    <td class="text-orange font-weight-bolder">
+                      100 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" id="ticket2" name="ticket" />
+                    </td>
+                    <td class="text-orange font-weight-bolder">
+                      150 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" id="ticket3" name="ticket" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Student</th>
+                    <td class="text-orange font-weight-bolder">
+                      75 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" name="ticket" />
+                    </td>
+                    <td class="text-orange font-weight-bolder">
+                      75 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" name="ticket" />
+                    </td>
+                    <td class="text-orange font-weight-bolder">
+                      100 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" name="ticket" />
+                    </td>
+                  </tr>
+                </tbody>
+              </form>
             </table>
           </article>
         </div>
@@ -228,8 +217,8 @@
           <span class="text-orange dot mr-1"
             ><i class="fas fa-circle"></i> </span
           ><span class="text-orange font-weight-bold mr-3"> STEP 2</span>
-          Please select your lunch for registired day. There will be no further
-          costs for the lunch until you begin earning 1000$ monthly.
+          Please select your lunch for summit. There will be no further costs
+          for the lunch until you begin earning 1000$ monthly
         </p>
         <div
           class="row m-0 my-3 p-0 w-100 d-flex justify-content-center align-items-center"

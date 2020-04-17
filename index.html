@@ -30,6 +30,48 @@
   </head>
   <body class="h-100 body">
     <header class="container-fluid p-0 fixed-top">
+      <input
+        type="checkbox"
+        name="navbar-toggler"
+        id="nav-toggler"
+        class="position-absolute d-none"
+      />
+      <label for="nav-toggler" class="d-md-none p-4 text-center"
+        ><span class="toggle-word"
+          ><i class="fas fa-bars h2 text-customgray2"></i></span
+      ></label>
+      <nav class="menu bg-darkgray position-fixed h-100 w-75 p-3">
+        <label for="nav-toggler" class="d-md-none text-center"
+          ><span class="toggle-word"
+            ><i class="far fa-times-circle h2 text-lightgray"></i></span
+        ></label>
+        <ul class="list-unstyled">
+          <li class="mb2">
+            <a class="text-white h4" href="index.html">Home</a>
+          </li>
+          <li class="mb2">
+            <a class="text-white h4" href="ticket.html">Ticket</a>
+          </li>
+          <li class="mb2">
+            <a class="text-white h4" href="about.html">About</a>
+          </li>
+          <hr />
+
+          <li class="mb2"><a class="text-white h4" href="#">Turkish</a></li>
+          <li class="mb2"><a class="text-white h4" href="#">My Page</a></li>
+          <li class="mb2"><a class="text-white h4" href="#">Log Out</a></li>
+          <hr />
+
+          <li class="mb2">
+            <a class="text-white h4" href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="mb2">
+            <a class="text-white h4" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
       <nav class="d-none d-md-block bg-darkgray p-2">
         <div class="d-flex justify-content-end align-items-center nav w-100">
           <ul class="list-unstyled list-inline m-0 p-0">
@@ -42,7 +84,7 @@
               <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
             </li>
             <li class="list-inline-item mx-2">
-              <a href="#" class="text-white">English</a>
+              <a href="#" class="text-white">Turkish</a>
             </li>
             <li class="list-inline-item mx-2">
               <a href="#" class="text-white">My Page</a>
@@ -73,61 +115,6 @@
           </ul>
         </div>
       </nav>
-      <nav class="d-flex w-100 d-md-none">
-        <button
-          class="navbar-toggler m-3"
-          type="button"
-          onclick="togglenavbar()"
-        >
-          <i class="fas fa-bars h1 text-customgray2"></i>
-        </button>
-        <div class="w-100">
-          <div class="bg-darkgray p-2" id="nav1" style="display: none;">
-            <div
-              class="d-flex justify-content-end align-items-center nav w-100"
-            >
-              <ul class="list-unstyled list-inline m-0 p-0">
-                <li class="list-inline-item mx-2">
-                  <a href="#" class="text-white"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item mx-2 mr-3">
-                  <a href="#" class="text-white"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item mx-2">
-                  <a href="#" class="text-white">English</a>
-                </li>
-                <li class="list-inline-item mx-2">
-                  <a href="#" class="text-white">My Page</a>
-                </li>
-                <li class="list-inline-item ml-2">
-                  <a href="#" class="text-white">Log Out</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="bg-white p-2" id="nav2" style="display: none;">
-            <div
-              class="d-flex justify-content-end align-items-center nav w-100"
-            >
-              <ul class="list-unstyled list-inline m-0 p-0">
-                <li class="list-inline-item mx-2">
-                  <a href="about.html" class="text-orange">About</a>
-                </li>
-                <li class="list-inline-item mx-2">
-                  <a href="ticket.html" class="text-customgray">Tickets</a>
-                </li>
-                <li class="list-inline-item ml-2">
-                  <a href="index.html" class="text-customgray p-1 px-3">Home</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
     </header>
     <main>
       <section
@@ -151,7 +138,7 @@
         <p class="display-8 font-weight-bolder text-customgray2 arial mt-2">
           2O2O.1O.06 (TUE) &#x7e; 07(WED)
         </p>
-        <p class="h3 text-customgray2 arial mt-2">
+        <p class="display-9 text-customgray2 arial mt-2">
           @ Science Center of Konya.
         </p>
       </section>
@@ -218,11 +205,11 @@
             </div>
           </div>
         </div>
-        <a href="#" class="d-none d-md-block text-white h6 my-4 mb-5"
+        <a href="ticket.html" class="d-none d-md-block text-white h6 my-4 mb-5"
           ><u>SEE THE WHOLE PROGRAM</u>
         </a>
         <a
-          href="tickets.html"
+          href="ticket.html"
           class="text-white bg-orange h5 font-weight-bold my-4 mb-5 d-md-none p-4"
           >Join Microverse Global Summit 2020
         </a>

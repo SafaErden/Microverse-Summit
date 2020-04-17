@@ -1,13 +1,16 @@
 * {
   font-family: Lato, sans-serif;
 }
+
 .arial {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .body {
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
 }
+
 .stripe {
   background-image: url("../img/stripe.png");
   background-repeat: repeat;
@@ -26,7 +29,8 @@
   width: 515px;
   border-radius: 100px;
 }
-.logo-2020:after {
+
+.logo-2020::after {
   position: absolute;
   padding: 0;
   margin: 0;
@@ -62,10 +66,12 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 .container {
   margin: 0 auto;
 }
@@ -101,6 +107,7 @@ main {
 .bg-lightgray {
   background-color: rgb(247, 247, 247);
 }
+
 .coverlink {
   border: 4px solid #ec5242;
 }
@@ -109,6 +116,7 @@ main {
   border: 1px solid #ec5242;
   width: 50px;
 }
+
 .grayline {
   border: 1px solid rgb(211, 211, 211);
   width: 20px;
@@ -138,13 +146,16 @@ main {
 .section2 {
   background-image: url("../img/bg-mini.png");
 }
+
 .font-weight-bolder {
   font-weight: 900 !important;
 }
+
 .size-mini {
   font-size: 13px;
   line-height: 1.2;
 }
+
 .display-7 {
   font-size: 4.5rem;
 }
@@ -153,15 +164,25 @@ main {
   font-size: 2rem;
 }
 
+.display-9 {
+  font-size: 1.6rem;
+}
+
 .dot {
   font-size: 7px;
 }
+
 @media screen and (max-width: 998px) {
   .display-7 {
     font-size: 3.5rem;
   }
+
   .display-8 {
     font-size: 1.8rem;
+  }
+
+  .display-9 {
+    font-size: 1.4rem;
   }
 }
 
@@ -169,8 +190,13 @@ main {
   .display-7 {
     font-size: 2.5rem;
   }
+
   .display-8 {
     font-size: 1.6rem;
+  }
+
+  .display-9 {
+    font-size: 1.2rem;
   }
 }
 
@@ -189,6 +215,7 @@ main {
     url(../img/2018.png);
   background-position: 100%, 100%;
 }
+
 .summit-2019 {
   background-image: linear-gradient(
       to bottom,
@@ -217,4 +244,19 @@ main {
 
 .main-icon {
   min-width: 50px;
+}
+
+.menu {
+  right: -100%;
+  top: 0;
+  transition: 0.5s transform;
+  transition-timing-function: cubic-bezier(0.39, 0.53, 0.38, 1);
+}
+
+#nav-toggler:checked ~ label .toggle-word {
+  display: none;
+}
+
+#nav-toggler:checked ~ .menu {
+  transform: translateX(-90vw);
 }
