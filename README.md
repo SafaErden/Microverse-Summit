@@ -2,6 +2,9 @@
 
 > This is the capstone project of the Microverse HTML & CSS curriculum. It makes use of float, flex and grid CSS display positioning styles. Also Bootstrap framework is mostly used. This capstone project is completed as part of the Microverse remote software developement curriculum using the pair programming approach.
 
+## Check Video Link
+[Description Video](https://www.loom.com/share/47d2ad77bf6846d49fea32d3a3ab057d) 
+
 ## Home Page
 ![screenshot](./Assets/img/index.PNG)
 
