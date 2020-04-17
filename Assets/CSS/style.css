@@ -17,7 +17,8 @@
 }
 
 .logo-2020 {
-  background-image: url("../img/microverse.png"),
+  background-image:
+    url("../img/microverse.png"),
     linear-gradient(
       to left bottom,
       #272a31 40%,
@@ -43,7 +44,8 @@
 }
 
 .logo-index {
-  background-image: url("../img/microverse.png"),
+  background-image:
+    url("../img/microverse.png"),
     linear-gradient(
       to left bottom,
       #272a31 40%,
@@ -172,42 +174,9 @@ main {
   font-size: 7px;
 }
 
-@media screen and (max-width: 998px) {
-  .display-7 {
-    font-size: 3.5rem;
-  }
-
-  .display-8 {
-    font-size: 1.8rem;
-  }
-
-  .display-9 {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .display-7 {
-    font-size: 2.5rem;
-  }
-
-  .display-8 {
-    font-size: 1.6rem;
-  }
-
-  .display-9 {
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    box-shadow: 0 5px 10px rgb(211, 211, 211);
-  }
-}
-
 .summit-2018 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(232, 66, 40, 0.7),
       rgba(232, 66, 40, 0.7)
@@ -217,7 +186,8 @@ main {
 }
 
 .summit-2019 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(232, 66, 40, 0.7),
       rgba(232, 66, 40, 0.7)
@@ -260,21 +230,63 @@ main {
   transform: translateX(-90vw);
 }
 
-/*-----------------*/
+.more-word-arrow {
+  transition: 1s transform;
+}
 
 #show-more:checked ~ .featured .more-word {
   display: none;
 }
-#show-more:checked ~ .featured:before {
+
+#show-more:checked ~ .featured .more-word-arrow {
+  transform: rotate(180deg);
+}
+
+#show-more:checked ~ .featured::before {
   content: "LESS";
 }
 
-#featured-speakers {
-  max-height: 300px;
-  overflow: hidden;
-  transition: max-height 1s ease-out;
+@media screen and (max-width: 998px) {
+  .display-7 {
+    font-size: 3.5rem;
+  }
+
+  .display-8 {
+    font-size: 1.8rem;
+  }
+
+  .display-9 {
+    font-size: 1.4rem;
+  }
 }
-#show-more:checked ~ div {
-  max-height: 1500px;
-  transition: max-height 1s ease-in;
+
+@media screen and (max-width: 768px) {
+  .display-7 {
+    font-size: 2.5rem;
+  }
+
+  .display-8 {
+    font-size: 1.6rem;
+  }
+
+  .display-9 {
+    font-size: 1.2rem;
+  }
+
+  #featured-speakers {
+    max-height: 400px;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+  }
+
+  #show-more:checked ~ div {
+    max-height: 1500px;
+    transition: max-height 1s ease-in;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    box-shadow: 0 5px 10px rgb(211, 211, 211);
+  }
 }
