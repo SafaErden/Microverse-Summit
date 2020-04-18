@@ -17,7 +17,8 @@
 }
 
 .logo-2020 {
-  background-image: url("../img/microverse.png"),
+  background-image:
+    url("../img/microverse.png"),
     linear-gradient(
       to left bottom,
       #272a31 40%,
@@ -43,7 +44,8 @@
 }
 
 .logo-index {
-  background-image: url("../img/microverse.png"),
+  background-image:
+    url("../img/microverse.png"),
     linear-gradient(
       to left bottom,
       #272a31 40%,
@@ -185,7 +187,8 @@ main {
 }
 
 .summit-2018 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(232, 66, 40, 0.7),
       rgba(232, 66, 40, 0.7)
@@ -195,7 +198,8 @@ main {
 }
 
 .summit-2019 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(232, 66, 40, 0.7),
       rgba(232, 66, 40, 0.7)
@@ -309,6 +313,7 @@ main {
     max-height: 1500px;
     transition: max-height 1s ease-in;
   }
+
   .d-none {
     display: none;
   }
