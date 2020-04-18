@@ -276,7 +276,19 @@ main {
   flex-direction: column;
 }
 
+.col-media {
+  width: 25%;
+}
+
+.col-half {
+  width: 50%;
+}
+
 @media screen and (max-width: 998px) {
+  .col-media {
+    width: 50%;
+  }
+
   .display-7 {
     font-size: 3.5rem;
   }
@@ -291,6 +303,14 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+  .col-media {
+    width: 100%;
+  }
+
+  .col-half {
+    width: 100%;
+  }
+
   .display-7 {
     font-size: 2.5rem;
   }
