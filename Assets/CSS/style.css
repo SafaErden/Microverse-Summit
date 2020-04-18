@@ -258,10 +258,18 @@ main {
   padding-top: 6rem !important;
 }
 
-.partners {
+.partners,
+.column {
   display: flex;
+}
+
+.partners {
   align-items: center;
   justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
 }
 
 @media screen and (max-width: 998px) {
@@ -300,6 +308,9 @@ main {
   #show-more:checked ~ div {
     max-height: 1500px;
     transition: max-height 1s ease-in;
+  }
+  .d-none {
+    display: none;
   }
 }
 
