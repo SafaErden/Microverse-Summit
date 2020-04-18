@@ -70,7 +70,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/SafaErden/Microverse-Summit/issues)
+Feel free to check the [issues page](https://safaerden.github.io/Microverse-Summit/)
 
 ## Show your support
 
