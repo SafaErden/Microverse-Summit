@@ -3,24 +3,31 @@
 > This is the capstone project of the Microverse HTML & CSS curriculum. It makes use of float, flex and grid CSS display positioning styles. Also Bootstrap framework is mostly used. This capstone project is completed as part of the Microverse remote software developement curriculum using the pair programming approach.
 
 ## Check Video Link
-[Description Video](https://www.loom.com/share/47d2ad77bf6846d49fea32d3a3ab057d) 
+
+[Description Video](https://www.loom.com/share/47d2ad77bf6846d49fea32d3a3ab057d)
 
 ## Home Page
+
 ![screenshot](./Assets/img/index.PNG)
 
 ## About Page
+
 ![screenshot](./Assets/img/about.PNG)
 
 ## Ticket Page
+
 ![screenshot](./Assets/img/ticket.PNG)
 
 ## Home Page - Small Secreen
+
 ![screenshot](./Assets/img/index-mini.PNG)
 
 ## About Page - Small Screen
+
 ![screenshot](./Assets/img/about-mini.PNG)
 
 ## Ticket Page - Small Screen
+
 ![screenshot](./Assets/img/ticket-mini.PNG)
 
 ## Built With
@@ -34,7 +41,7 @@
 
 ### Prerequisites
 
--Any kind of browser suooprting CSS3 and HTML5
+-Any kind of browser supporting CSS3 and HTML5
 
 ### Setup
 
@@ -43,12 +50,11 @@
 
 ### Install
 
--No istallation needed.
+-No installation needed.
 
 ### Usage
 
 -Visit the live demo link on your web browser.
-
 
 ## Author
 
@@ -77,4 +83,3 @@ You can access all the design info (color, typography, layouts) in this link:
 [https://www.behance.net/gallery/29845175/CC-Global-Summit-2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
-
