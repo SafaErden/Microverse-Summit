@@ -37,7 +37,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/SafaErden/Microverse-Summit/a53cf913ada323dc8bd06839c92c7658aa908903/index.html)
+[Live Demo Link](https://rawcdn.githack.com/SafaErden/Microverse-Summit/561a5738b40d00ac1292c7021d754e33b04b9d79/index.html)
 
 ### Prerequisites
 
