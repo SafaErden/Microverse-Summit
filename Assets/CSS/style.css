@@ -1,0 +1,346 @@
+* {
+  font-family: Lato, sans-serif;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+}
+
+.stripe {
+  background-image: url("../img/stripe.png");
+  background-repeat: repeat;
+}
+
+.logo-2020 {
+  background-image:
+    url("../img/microverse.png"),
+    linear-gradient(
+      to left bottom,
+      #272a31 40%,
+      #ec5242 40% 70%,
+      #d3d3d3 70% 100%
+    );
+  background-position: 50%, 100%;
+  background-repeat: no-repeat;
+  width: 515px;
+  border-radius: 100px;
+}
+
+.logo-2020::after {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  bottom: -12px;
+  right: 37px;
+  color: rgb(62, 62, 62);
+  font-size: 35px;
+  content: "MGS 2020";
+  font-weight: 900;
+}
+
+.logo-index {
+  background-image:
+    url("../img/microverse.png"),
+    linear-gradient(
+      to left bottom,
+      #272a31 40%,
+      #ec5242 40% 70%,
+      #d3d3d3 70% 100%
+    );
+  background-position: 50%, 100%;
+  background-repeat: no-repeat;
+  min-width: 200px;
+  max-width: 200px;
+  background-size: 200px auto;
+  border-radius: 25px;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.nav {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.second-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.third-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.bg-darkgray {
+  background-color: rgb(62, 62, 62);
+}
+
+.bg-transparent {
+  background-color: rgba(81, 81, 81, 0.3) !important;
+}
+
+.text-customgray {
+  color: #272a31;
+}
+
+.text-customgray2 {
+  color: rgb(81, 81, 81);
+}
+
+.text-lightgray {
+  color: rgb(211, 211, 211);
+}
+
+.text-orange {
+  color: #ec5242;
+}
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.bg-lightgray {
+  background-color: rgb(247, 247, 247);
+}
+
+.coverlink {
+  border: 4px solid #ec5242;
+}
+
+.orangeline {
+  border: 1px solid #ec5242;
+  width: 50px;
+}
+
+.grayline {
+  border: 1px solid rgb(211, 211, 211);
+  width: 20px;
+}
+
+.bordered {
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.border-top {
+  border-top: 1px solid rgb(211, 211, 211);
+}
+
+.step-border {
+  border-radius: 50px;
+}
+
+.section1 {
+  min-height: 100vh !important;
+}
+
+.section2 {
+  background-image: url("../img/bg-mini.png");
+}
+
+.font-weight-bolder {
+  font-weight: 900 !important;
+}
+
+.size-mini {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.display-7 {
+  font-size: 4.5rem;
+}
+
+.display-8 {
+  font-size: 2rem;
+}
+
+.display-9 {
+  font-size: 1.6rem;
+}
+
+.dot {
+  font-size: 7px;
+}
+
+.summit-2018 {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(232, 66, 40, 0.7),
+      rgba(232, 66, 40, 0.7)
+    ),
+    url(../img/2018.png);
+  background-position: 100%, 100%;
+}
+
+.summit-2019 {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(232, 66, 40, 0.7),
+      rgba(232, 66, 40, 0.7)
+    ),
+    url(../img/2019.jpg);
+  background-position: 100%, 100%;
+}
+
+.rotator {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  bottom: -25px;
+}
+
+.rotate-45 {
+  transform: rotate(316deg);
+  bottom: -25px;
+}
+
+.main-topic {
+  min-width: 110px;
+}
+
+.main-icon {
+  min-width: 50px;
+}
+
+.menu {
+  right: -100%;
+  top: 0;
+  transition: 0.5s transform;
+}
+
+#nav-toggler:checked ~ label .toggle-word {
+  display: none;
+}
+
+#nav-toggler:checked ~ .menu {
+  transform: translateX(-90vw);
+}
+
+.more-word-arrow {
+  transition: 1s transform;
+}
+
+#show-more:checked ~ .featured .more-word {
+  display: none;
+}
+
+#show-more:checked ~ .featured .more-word-arrow {
+  transform: rotate(180deg);
+}
+
+#show-more:checked ~ .featured::before {
+  content: "LESS";
+}
+
+.pt-6 {
+  padding-top: 6rem !important;
+}
+
+.partners,
+.column {
+  display: flex;
+}
+
+.partners {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.col-media {
+  width: 25%;
+}
+
+.col-half {
+  width: 50%;
+}
+
+@media screen and (max-width: 998px) {
+  .col-media {
+    width: 50%;
+  }
+
+  .display-7 {
+    font-size: 3.5rem;
+  }
+
+  .display-8 {
+    font-size: 1.8rem;
+  }
+
+  .display-9 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-media {
+    width: 100%;
+  }
+
+  .col-half {
+    width: 100%;
+  }
+
+  .display-7 {
+    font-size: 2.5rem;
+  }
+
+  .display-8 {
+    font-size: 1.6rem;
+  }
+
+  .display-9 {
+    font-size: 1.2rem;
+  }
+
+  #featured-speakers {
+    max-height: 400px;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+  }
+
+  #show-more:checked ~ div {
+    max-height: 1500px;
+    transition: max-height 1s ease-in;
+  }
+
+  .d-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    box-shadow: 0 5px 10px rgb(211, 211, 211);
+  }
+}

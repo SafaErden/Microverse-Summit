@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tickets</title>
+  </head>
+  <body class="bg-lightgray pt-6">
+    <header class="container-fluid p-0 fixed-top">
+      <input
+        type="checkbox"
+        name="navbar-toggler"
+        id="nav-toggler"
+        class="position-absolute d-none"
+      />
+      <label for="nav-toggler" class="d-md-none p-4 text-center"
+        ><span class="toggle-word"
+          ><i class="fas fa-bars h2 text-customgray2"></i></span
+      ></label>
+      <nav class="menu bg-darkgray position-fixed h-100 w-75 p-3">
+        <label for="nav-toggler" class="d-md-none text-center"
+          ><span class="toggle-word"
+            ><i class="far fa-times-circle h2 text-lightgray"></i></span
+        ></label>
+        <ul class="list-unstyled">
+          <li class="mb-1">
+            <a
+              class="text-white h4"
+              href="https://rawcdn.githack.com/SafaErden/Microverse-Summit/52d4f24d1157473cf6abcc7130969acd757016d9/index.html"
+              >Home</a
+            >
+          </li>
+          <li class="mb-1">
+            <a
+              class="text-white h4"
+              href="https://rawcdn.githack.com/SafaErden/Microverse-Summit/52d4f24d1157473cf6abcc7130969acd757016d9/ticket.html"
+              >Ticket</a
+            >
+          </li>
+          <li class="mb-5">
+            <a
+              class="text-white h4"
+              href="https://rawcdn.githack.com/SafaErden/Microverse-Summit/52d4f24d1157473cf6abcc7130969acd757016d9/about.html"
+              >About</a
+            >
+          </li>
+
+          <li class="mb-1"><a class="text-white h5" href="#">Turkish</a></li>
+          <li class="mb-1"><a class="text-white h5" href="#">My Page</a></li>
+          <li class="mb-5"><a class="text-white h5" href="#">Log Out</a></li>
+
+          <li class="mb-1">
+            <a class="text-white h4" href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="mb-1">
+            <a class="text-white h4" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="d-none d-md-block bg-darkgray p-2">
+        <div class="second-nav nav w-100">
+          <ul class="list-unstyled list-inline m-0 p-0">
+            <li class="list-inline-item mx-2">
+              <a href="#" class="text-white"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="list-inline-item mx-2 mr-3">
+              <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item mx-2">
+              <a href="#" class="text-white">Turkish</a>
+            </li>
+            <li class="list-inline-item mx-2">
+              <a href="#" class="text-white">My Page</a>
+            </li>
+            <li class="list-inline-item ml-2">
+              <a href="#" class="text-white">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="d-none d-md-block bg-white p-2 py-4">
+        <div class="third-nav nav w-100">
+          <div class="d-flex p-4 m-0 logo-index position-relative"></div>
+          <ul class="list-unstyled list-inline m-0 p-0">
+            <li class="list-inline-item mx-5">
+              <a
+                href="https://rawcdn.githack.com/SafaErden/Microverse-Summit/52d4f24d1157473cf6abcc7130969acd757016d9/about.html"
+                class="text-orange"
+                >About</a
+              >
+            </li>
+            <li class="list-inline-item mx-5">
+              <a
+                href="https://rawcdn.githack.com/SafaErden/Microverse-Summit/52d4f24d1157473cf6abcc7130969acd757016d9/ticket.html"
+                class="text-customgray"
+                >Tickets</a
+              >
+            </li>
+            <li class="list-inline-item ml-5">
+              <a
+                href="https://rawcdn.githack.com/SafaErden/Microverse-Summit/52d4f24d1157473cf6abcc7130969acd757016d9/index.html"
+                class="text-orange coverlink p-1 px-3"
+                >Home</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="section1 container column align-items-center justify-content-center p-3 text-center position-relative"
+      >
+        <h1 class="font-weight-bold h4 m-3 mt-5 text-customgray">
+          Select Tickets
+        </h1>
+        <div class="orangeline mb-3"></div>
+
+        <p
+          class="h6 d-flex flex-wrap align-items-center text-customgray2 text-center mt-4 step-border border p-3 px-4"
+        >
+          <span class="text-orange dot mr-1"
+            ><i class="fas fa-circle"></i> </span
+          ><span class="text-orange font-weight-bold mr-3"> STEP 1</span>
+          Please select the day when you want to join Microverse Global Summit
+          2020
+        </p>
+        <div
+          class="row m-0 my-3 p-0 w-100 d-flex justify-content-center align-items-center"
+        >
+          <article class="col-12 text-center text-white p-2 m-0 my-3 stripe">
+            <h2 class="d-none">article heading</h2>
+            <form action="#">
+              <table class="table m-0 border w-100">
+                <thead class="bg-lightgray">
+                  <tr>
+                    <th scope="col">Ticket</th>
+                    <th scope="col">1-Day-Ticket</th>
+                    <th scope="col">2-Day-ticket</th>
+                    <th scope="col">Full Ticket</th>
+                  </tr>
+                </thead>
+                <tbody class="bg-white">
+                  <tr>
+                    <th scope="row">Date</th>
+                    <td>06. Oct (Tue)</td>
+                    <td>07. Oct (Wed)</td>
+                    <td>06.-07. Oct (Tue-Wed)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Normal</th>
+                    <td class="text-orange font-weight-bolder">
+                      100
+                      <i class="fas fa-lira-sign"> </i>
+                      <br />
+                      <input type="radio" id="ticket1" name="ticket" />
+                    </td>
+                    <td class="text-orange font-weight-bolder">
+                      100 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" id="ticket2" name="ticket" />
+                    </td>
+                    <td class="text-orange font-weight-bolder">
+                      150 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" id="ticket3" name="ticket" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Student</th>
+                    <td class="text-orange font-weight-bolder">
+                      75 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" name="ticket" />
+                    </td>
+                    <td class="text-orange font-weight-bolder">
+                      75 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" name="ticket" />
+                    </td>
+                    <td class="text-orange font-weight-bolder">
+                      100 <i class="fas fa-lira-sign"></i>
+                      <br />
+                      <input type="radio" name="ticket" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+          </article>
+        </div>
+        <div
+          class="rotator bg-orange position-absolute d-flex p-0 align-items-center justify-content-center"
+        >
+          <i class="fas fa-angle-down text-white rotate-45"></i>
+        </div>
+      </section>
+      <section
+        class="container-fluid column align-items-center justify-content-center p-2 bg-white border-bottom border-top"
+      >
+        <h1 class="font-weight-bold h4 m-3 mt-5 text-customgray">
+          Select Your Lunch
+        </h1>
+        <div class="orangeline mb-3"></div>
+
+        <p
+          class="h6 d-flex flex-wrap align-items-center text-customgray2 text-center mt-4 step-border border p-3 px-4"
+        >
+          <span class="text-orange dot mr-1"
+            ><i class="fas fa-circle"></i> </span
+          ><span class="text-orange font-weight-bold mr-3"> STEP 2</span>
+          Please select your lunch for summit. There will be no further costs
+          for the lunch until you begin earning 1000$ monthly
+        </p>
+        <div
+          class="row m-0 my-3 p-0 w-100 d-flex justify-content-center align-items-center"
+        >
+          <article class="col-12 text-center text-white p-2 m-0 my-3">
+            <h2 class="d-none">article heading</h2>
+            <form action="#">
+              <table class="table m-0 border w-100">
+                <thead class="bg-lightgray">
+                  <tr>
+                    <th scope="col">
+                      Menu-1
+                      <br />
+                      <input
+                        type="radio"
+                        id="menu1"
+                        name="menu"
+                        value="menu1"
+                      />
+                    </th>
+                    <th scope="col">
+                      Menu-2
+                      <br />
+                      <input
+                        type="radio"
+                        id="menu2"
+                        name="menu"
+                        value="menu2"
+                      />
+                    </th>
+                    <th scope="col">
+                      Menu-3
+                      <br />
+                      <input
+                        type="radio"
+                        id="menu3"
+                        name="menu"
+                        value="menu2"
+                      />
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="bg-white">
+                  <tr>
+                    <td>Beef Stroganoff</td>
+                    <td>Spaghetti Bolognese</td>
+                    <td>Cheese Burger</td>
+                  </tr>
+                  <tr>
+                    <td>Eton Mess</td>
+                    <td>Tiramisu</td>
+                    <td>Cheese Cake</td>
+                  </tr>
+                  <tr>
+                    <td>Water</td>
+                    <td>Grape Juice</td>
+                    <td>Ayran</td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+          </article>
+          <button
+            class="w-50 py-3 my-5 border text-white font-weight-bolder bg-orange rounded"
+          >
+            Next Step <i class="fas fa-angle-right ml-2"></i>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid p-0 bg-darkgray">
+      <section
+        class="container-fluid column align-items-center justify-content-center p-2 section3"
+      >
+        <h1 class="font-weight-bold h4 m-3 text-lightgray">
+          Partner
+        </h1>
+        <div class="orangeline mb-3"></div>
+        <div class="container partners text-lightgray w-100 h1 my-4">
+          <i class="fab fa-google-wallet"></i>
+          <i class="fas fa-laptop-code"></i>
+          <i class="fab fa-windows"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-ubuntu"></i>
+          <i class="fab fa-hubspot"></i>
+          <i class="fab fa-github-square"></i>
+        </div>
+      </section>
+      <section
+        class="container-fluid py-5 m-0 d-flex align-items-center justify-content-center p-2 section3 bg-lightgray"
+      >
+        <h2 class="d-none">section heading</h2>
+        <div class="d-flex p-4 m-0 mr-3 logo-index position-relative"></div>
+        <article>
+          <h6
+            class="size-mini font-weight-bolder text-customgray2 d-none d-md-inline"
+          >
+            2020 MCVRS, Some Rights Might Be Reserved, Some Rights Should Be
+            Reserverd, Some Rights Must Be Reserved.
+          </h6>
+          <h6 class="size-mini font-weight-bolder text-customgray2">
+            페이지 아래에 쓰여진 내용을 이해하기 위해 누군가가 해당 텍스트를
+            번역할지 궁금합니다. 나는 그렇게 생각하지 않습니다.
+          </h6>
+        </article>
+      </section>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
