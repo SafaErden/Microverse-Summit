@@ -37,7 +37,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/SafaErden/Microverse-Summit/52d4f24d1157473cf6abcc7130969acd757016d9/index.html)
+[Live Demo Link](https://safaerden.github.io/Microverse-Summit/)
 
 ### Prerequisites
 
@@ -70,7 +70,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://safaerden.github.io/Microverse-Summit/)
+Feel free to check the [issues page](https://github.com/SafaErden/Microverse-Summit/issues)
 
 ## Show your support
 
